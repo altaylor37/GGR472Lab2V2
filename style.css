@@ -1,0 +1,25 @@
+.navbar {
+    position: relative;
+    z-index: 1020;
+}
+
+.map-container {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.sidebar {
+    height: 100%;
+    width: 350px;
+    position: absolute;
+    z-index: 9999;
+    top: 60px;
+    left: 10px;
+    overflow-x: hidden;
+    background-color: #f8f9fa;
+    height: auto;
+    border: 2px solid black;
+}
