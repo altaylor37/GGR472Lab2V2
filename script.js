@@ -49,3 +49,5 @@ map.on('load', function() {
 document.getElementById('returnToCanada').onclick = function() {
     map.flyTo({center: [-105.2551, 56.1304], zoom: 3});
 };
+
+
