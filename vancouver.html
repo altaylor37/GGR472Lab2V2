@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 
 
@@ -18,7 +18,7 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Busiest Airport in Canada</a>
+          <a class="navbar-brand" href="index.html">Busiest Airport in Canada</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -27,20 +27,14 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="map.html">Map</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="traffic.html">Passenger Traffic</a>
-              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  More info
+                  Air-Rail Links
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="toronto.html">Toronto - Pearson</a></li>
-                  <li><a class="dropdown-item" href="montreal.html">Montreal</a></li>
-                  <li><a class="dropdown-item" href="vancouver.html">Vancouver</a></li>
+                    <li><a class="dropdown-item" href="toronto.html">Toronto - Pearson</a></li>
+                    <li><a class="dropdown-item" href="vancouver.html">Vancouver</a></li>
+                    <li><a class="dropdown-item" href="montreal.html">Montreal</a></li>
                 </ul>
               </li>
             </ul>
@@ -49,7 +43,32 @@
       </nav>
 
 
-    <body>
+    <body><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img class="card-img-top" src="ExpoLine.png" alt="Image of Map of Expo Line Route">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Expo Line - Airport Branch</h5>
+                            <p>This can be seen in more deatail in the map, but this is the route of the Expo Line. It is an metro rail service from Vancouver airport
+                                to Waterfront Station on the north side going through downtown Vancouver. (Click the airport name on the home page to zoom in)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img class="card-img-top" src="ExpoLineTrain.jpg" alt="Expo Line Train">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">More Info</h5>
+                            <p>The Expo Line is one of three SkyTrain services, similar to a light metro, in Vancouver. The airport branch splits at Bridgeport station and it takes
+                                about 26 minutes to travel the 16.7km to Waterfront.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
