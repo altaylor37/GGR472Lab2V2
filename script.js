@@ -51,3 +51,39 @@ document.getElementById('returnToCanada').onclick = function() {
 };
 
 
+map.on('load', () => {
+
+    map.addSource('up-express', {
+        type: "geojson",
+        data: 'https://raw.githubusercontent.com/altaylor37/GGR472Lab2V2/main/UPExpress.geojson',
+    });
+
+    map.addLayer({
+        'id': 'up-express-layer',
+        'type': 'line',
+        'source': 'up-express',
+        'paint': {
+            "line-width": 5,
+            "line-opacity": 1,
+            "line-color": '#591f16',
+        }
+    });
+
+    map.addSource('expo-line', {
+        type: "geojson",
+        data: 'https://raw.githubusercontent.com/altaylor37/GGR472Lab2V2/main/ExpoLine.geojson',
+    });
+
+    map.addLayer({
+        'id': 'expo-line-layer',
+        'type': 'line',
+        'source': 'expo-line',
+        'paint': {
+            "line-width": 5,
+            "line-opacity": 1,
+            "line-color": '#11297d',
+        }
+    });
+
+
+})
