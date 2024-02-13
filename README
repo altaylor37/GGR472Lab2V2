@@ -1,0 +1,8 @@
+This website contains information regarding the Top 10 busiest airports in Canada.
+
+The map portion has a sidebar with a list of the airports. When the name is clicked, the map zooms into the point location on the map.
+There is also a button to zoom back out to Canada. 
+When clicking on an airport point, a popup window appears providing more detailed information about the ranking, passenger numbers, and province of the airport.
+
+The Navbar is a feature that I wanted to play with and while not directly related to the assignment, it was helpful to understand. 
+The dropdown menu shows the three air-rail downtown links in Canada. The sub-pages are static but show some pictures and provide information about the services. 
