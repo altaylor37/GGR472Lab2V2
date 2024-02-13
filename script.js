@@ -58,7 +58,7 @@ map.on('load', () => {
     //UP Express - Toronto
     map.addSource('up-express', {
         type: "geojson",
-        data: 'https://raw.githubusercontent.com/altaylor37/GGR472Lab2V2/main/UPExpress.geojson',
+        data: 'https://raw.githubusercontent.com/altaylor37/GGR472Lab2V2/main/GeoJSONs/UPExpress.geojson',
     });
     map.addLayer({
         'id': 'up-express-layer',
@@ -74,7 +74,7 @@ map.on('load', () => {
     //Expo Line - Vancouver
     map.addSource('expo-line', {
         type: "geojson",
-        data: 'https://raw.githubusercontent.com/altaylor37/GGR472Lab2V2/main/ExpoLine.geojson',
+        data: 'https://raw.githubusercontent.com/altaylor37/GGR472Lab2V2/main/GeoJSONs/ExpoLine.geojson',
     });
     map.addLayer({
         'id': 'expo-line-layer',
@@ -90,7 +90,7 @@ map.on('load', () => {
     //REM - Montreal
     map.addSource('rem-line', {
         type: "geojson",
-        data: 'https://raw.githubusercontent.com/altaylor37/GGR472Lab2V2/main/REM.geojson',
+        data: 'https://raw.githubusercontent.com/altaylor37/GGR472Lab2V2/main/GeoJSONs/REM.geojson',
     });
     map.addLayer({
         'id': 'rem-line-layer',
