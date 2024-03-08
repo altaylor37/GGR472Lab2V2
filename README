@@ -6,3 +6,17 @@ When clicking on an airport point, a popup window appears providing more detaile
 
 The Navbar is a feature that I wanted to play with and while not directly related to the assignment, it was helpful to understand. 
 The dropdown menu shows the three air-rail downtown links in Canada. The sub-pages are static but show some pictures and provide information about the services. 
+
+-----
+
+ADDITIONS TO LAB 3 VERSION OF THIS MAP
+1. Zoom in and out will affect the size of the airport points.
+2. Filter map to add / subtract layers (population density / legend / airports / air rail links).
+3. There is now a legend.
+4. The main cloropleth map layer is of Canada created in ArcGIS Pro. It was a matter of inputing the popualtion data and dividing it by the land area per province.
+    https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21 
+    https://www12.statcan.gc.ca/census-recensement/index-eng.cfm 
+5. Popups on airports are no longer clickable, but appear on hover.
+6. Provinces are clickable to display the exact population density figure rounded to 2 decimal points. 
+7. The airports were converted to a GeoJSON. 
+8. Navigation and Fullscreen controls. 
